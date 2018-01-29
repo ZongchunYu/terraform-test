@@ -16,7 +16,7 @@ plan: build
 	terraform plan
 
 apply: build
-	terraform apply
+	terraform apply -auto-approve
 
 destroy:
 	terraform destroy
